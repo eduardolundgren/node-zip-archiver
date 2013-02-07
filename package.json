@@ -1,0 +1,25 @@
+{
+    "name": "zippy",
+    "description": "This project provides a simple Zip compression API for NodeJS.",
+    "version": "0.0.1",
+    "author": {
+        "name": "Eduardo Lundgren",
+        "email": "eduardo.lundgren@liferay.com",
+        "web": "http://www.eduardolundgren.com",
+        "twitter": "eduardolundgren"
+    },
+    "main": "lib",
+    "license": "BSD",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:eduardolundgren/node-zippy.git"
+    },
+    "keywords": [
+        "zip", "archiver", "zippy", "commands", "helpers"
+    ],
+    "dependencies": {
+        "archiver": "*",
+        "walkdir": "*"
+    },
+    "engines": { "node": "*" }
+}
