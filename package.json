@@ -1,5 +1,5 @@
 {
-    "name": "zippy",
+    "name": "zip-archiver",
     "description": "This project provides a simple Zip compression API for NodeJS.",
     "version": "0.0.1",
     "author": {
@@ -12,10 +12,10 @@
     "license": "BSD",
     "repository": {
         "type": "git",
-        "url": "git@github.com:eduardolundgren/node-zippy.git"
+        "url": "git@github.com:eduardolundgren/node-zip-archiver.git"
     },
     "keywords": [
-        "zip", "archiver", "zippy", "commands", "helpers"
+        "zip", "archiver", "zip-archiver", "commands", "helpers"
     ],
     "dependencies": {
         "archiver": "*",
