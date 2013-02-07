@@ -11,12 +11,14 @@ This project provides a simple Zip compression API for NodeJS.
 ``` javascript
 var Zip = require('zip-archiver').Zip;
 
-var zip = new Zip('test.zip');
+var zip = new Zip({
+    file: 'file.zip',
+    root: 'opt_root_path'
+});
 zip.add('file1.txt');
 zip.add('file2.txt');
 zip.add('folder1/');
-zip.add('folder2/');
-zip.add('folder3/', function() {
+zip.add('folder2/', function() {
     zip.done();
     console.log('done.');
 });
